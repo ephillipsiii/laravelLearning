@@ -1,10 +1,11 @@
-
 @extends('layout')
 
 @section('title')
-Home
-@endsection
+Laravel
+@stop
 
 @section('content')
-  <h1>This is one lean template.</h1>
+<div class="title">
+    <div class="title">{{ $site_title }}</div>
+</div>
 @stop

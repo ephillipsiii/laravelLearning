@@ -1,18 +1,13 @@
-<!doctype>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>My Site</title>
+    <head>
+        <title>@yield('title')</title>
 
-    <link rel="stylesheet" href="">
-  </head>
-  <body>
-
-    <div class="container">
-      @yield('content')
-    </div>
-
-    <footer>
-      &copy; Copyright
-    </footer>
-  </body>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+      <div class="container">
+        @yield('content')
+      </div>
+    </body>
 </html>
