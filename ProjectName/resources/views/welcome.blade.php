@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-Laravel
+About Me
 @stop
 
 @section('content')

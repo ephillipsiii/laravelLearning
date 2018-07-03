@@ -11,6 +11,13 @@
 |
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
+
+    
+    $first_name = "Edford";
+    $last_name = "Phillips";
+    $email = "bob@bob.com";
+
+    return view('about', compact('first_name', 'last_name', 'email'));
 });
