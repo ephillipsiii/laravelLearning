@@ -1,9 +1,18 @@
-@extends('layout')
+<!doctype>
+<html>
+  <head>
+    <title>My Site</title>
 
-@section('title')
-Home
-@endsection
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
 
-@section('content')
-  <h1>This is one lean template.</h1>
-@stop
+    <div class="container">
+      @yield('content')
+    </div>
+
+    <footer>
+      &copy; Copyright
+    </footer>
+  </body>
+</html>
